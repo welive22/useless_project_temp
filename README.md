@@ -2,53 +2,52 @@
 
 
 
-# [Project Name] 🎯
+# The needy Plant 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: 404Found
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: EB Fathima Suhana - Sree Narayana Gurukulam College of Engineering
+- Member 2: Nimisha Roy - Sree Narayana Gurukulam College of Engineering
 
 ### Project Description
-[2-3 lines about what your project does]
+Do you think of yourself as a gardener? 
+Do you think you have what it takes to nurture a plant?
+Then let's put your confidence to test through a little survival game.
+Let's see which one of you will emerge unscathed - whether mentally or physically.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+
+People already have enough real responsibilities, so we decided to create another one. The player must care for a plant that exists only inside the browser. The plant remembers neglect, complains about care, changes its requirements, and occasionally punishes the player for doing exactly what it asked.
+
+The game is intentionally unnecessary. It turns simple plant care into a strangely serious responsibility involving unpredictable watering intervals, emotional support, sunlight management, pointless actions, and absurd plant bureaucracy
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+
+People already have enough real responsibilities, so we decided to create another one. The player must care for a plant that exists only inside the browser. The plant remembers neglect, complains about care, changes its requirements, and occasionally punishes the player for doing exactly what it asked.
+
+The game is intentionally unnecessary. It turns simple plant care into a strangely serious responsibility involving unpredictable watering intervals, emotional support, sunlight management, pointless actions, and absurd plant bureaucracy
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
-
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- HTML5, CSS3, javascript.
+- chatgpt, claude, manusAI, freebuff.
 
 ### Implementation
 For Software:
-# Installation
-[commands]
-
-# Run
-[commands]
+git clone [github repo](https://github.com/welive22/useless_project_temp)
+cd useless project temp
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
+
+
 *Add caption explaining what this shows*
 
 ![Screenshot2](Add screenshot 2 here with proper name)
