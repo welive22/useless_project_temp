@@ -45,40 +45,61 @@ cd useless project temp
 ### Project Documentation
 For Software:
 
-# Screenshots (Add at least 3)
+## Screenshots
 
-main_page.png
-*Add caption explaining what this shows*
+### Main Game Screen
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Main game screen](screenshots/main-game.png)
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+*The main screen shows the pixel-art plant, its current mood, health meters, and care actions.*
+
+### Care Actions
+
+![Care actions](screenshots/care-actions.png)
+
+*The player can water, fertilize, compliment, or otherwise inconvenience the plant.*
+
+### History and Achievements
+
+![History and achievements](screenshots/history-achievements.png)
+
+*The game records the player's unnecessary commitment through history and achievements.*
+
 
 # Diagrams
-![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+## Diagrams
 
-For Hardware:
+### Game Workflow
 
-# Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+```mermaid
+flowchart TD
+    A[Open the game] --> B[Load saved plant]
+    B --> C[Calculate time away]
+    C --> D[Apply offline deterioration]
+    D --> E[Display plant condition]
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+    E --> F{Choose an action}
+    F --> G[Water plant]
+    F --> H[Give sunlight]
+    F --> I[Fertilize]
+    F --> J[Adjust temperature]
+    F --> K[Compliment plant]
+    F --> L[Inspect soil]
+    F --> M[Do nothing]
 
-# Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+    G --> N[Update plant state]
+    H --> N
+    I --> N
+    J --> N
+    K --> N
+    L --> N
+    M --> N
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+    N --> O[Update mood, history, and achievements]
+    O --> P[Save to LocalStorage]
+    P --> E
 
-![Final](Add photo of final product here)
-*Explain the final build*
-
+The game loads the saved plant, calculates time away, applies changes, processes the player's action, and saves the updated state locally in the browser.
 ### Project Demo
 # Video
 [Add your demo video link here]
