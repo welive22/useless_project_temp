@@ -69,7 +69,7 @@ For Software:
 # Diagrams
 ## Diagrams
 
-### Game Workflow
+## Game Workflow
 
 ```mermaid
 flowchart TD
@@ -98,8 +98,10 @@ flowchart TD
     N --> O[Update mood, history, and achievements]
     O --> P[Save to LocalStorage]
     P --> E
+```
 
-The game loads the saved plant, calculates time away, applies changes, processes the player's action, and saves the updated state locally in the browser.
+*The game loads the saved plant, calculates time away, applies offline deterioration, processes the player's action, and saves the updated state locally in the browser.*
+
 ### Project Demo
 ## Project Demo
 
