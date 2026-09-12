@@ -101,8 +101,9 @@ flowchart TD
 
 The game loads the saved plant, calculates time away, applies changes, processes the player's action, and saves the updated state locally in the browser.
 ### Project Demo
-# Video
-[Add your demo video link here]
+## Project Demo
+
+[Watch the gameplay demo on Google Drive](https://drive.google.com/file/d/1YVwadRlpBz5FqQXL06TBVk5ZKipfl3rE/view?usp=sharing)
 *Explain what the video demonstrates*
 
 # Additional Demos
