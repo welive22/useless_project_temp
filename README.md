@@ -67,7 +67,6 @@ For Software:
 
 
 # Diagrams
-## Diagrams
 
 ## Game Workflow
 
@@ -106,15 +105,12 @@ flowchart TD
 ## Project Demo
 
 [Watch the gameplay demo on Google Drive](https://drive.google.com/file/d/1YVwadRlpBz5FqQXL06TBVk5ZKipfl3rE/view?usp=sharing)
-*Explain what the video demonstrates*
+This video demonstrates the plant-care actions, randomized reactions, pixel-art animation, pointless actions, and saved plant progression.
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Nimisha Roy: Implemented the JavaScript logic, LocalStorage saving, offline progression, random events, and achievements.
+- EB Fathima Suhana:  Designed the game concept, plant personality, useless mechanics, and gameplay rules. Created the pixel-art interface, integrated the plant animation frames, styled the responsive layout, and tested the game.
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
